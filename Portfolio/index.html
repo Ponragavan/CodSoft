@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARtJREFUSEvVlNsNQiEQROd2opWonWglaiVqJWol2onmJEvCxYUlGj4k4YswZ2dfkwafabC+egELSSdJa0lPu0dJtyjAHsDWxEstQBdJhxYkAhDx1QSIGDHcAN2bk13LSQQgLYgl8TzY5Iw0bWouIsDDIl5atLkOTngnVby75xcAgi9TrepEAPJPHbwUUQ/qcJZEHb5ykKchdUxeZETJf7VdIwcIpEi9CIkcB9XTA+Dz0EGLhrX5HjkgPSsrtDfJtOi9Nc01AJ3DkJGangPInWgPkK+H6keDEwCtyh+3ozxAmt5mf2e2yt00m+oS0LVfnJzlXTYbyhKQllvY3w4kpXa2/EpAa7lFxXaXXwkIl1dA+fgfzUEUdfj+/4A3ooFEGV62zuoAAAAASUVORK5CYII=" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello , It's me</h3>
+            <h1>Ponragavan</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>With a solid understanding of HTML, CSS, and JavaScript, I'am adept at translating designs into high-quality code. They have experience working with various frontend frameworks such as React, Angular, or Vue.js, allowing them to build dynamic and interactive web pages.</p>
+        </div>
+        <div class="home-img">
+            <img src="./images/mine.jpeg" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h1>About Myself</h1>
+        <p>
+            I am currently studying in Government college of Engineering , Bodinayakanur.
+        </p>
+        <p>
+            I'm a passionate frontend developer with a keen eye for design and a love for creating user-friendly, responsive interfaces. With a strong foundation in HTML, CSS, and JavaScript, I enjoy turning ideas into visually appealing and functional websites. My goal is to craft seamless digital experiences that engage and delight users.
+        </p>
+    </section>
+    <section class="skills" id="skills">
+        <div class="skill">
+            <span class="wd">
+                <h3>Web Developer</h3>
+                <img src="./images/webdev.jpg" alt="">
+                <p>I'm involve proficiency in programming languages such as HTML, CSS, JavaScript, and frameworks like React or Angular</p>
+            </span>
+            <span class="ps">
+                <h3>Problem Solving</h3>
+                <img src="./images/problemsolve.png" alt="">
+                <p>I'm have problem solving skills in the context of biology involve analyzing complex biological phenomena, identifying key variables, and applying logical thinking to devise effective solutions</p>
+            </span>
+            <span class="gc">
+                <h3>Communication</h3>
+                <img src="./images/communication.jpg" alt="">
+                <p>I have good communication skills, which allow me to fluently communicate with anyone.</p>
+            </span>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <h1>Contact Me</h1>
+        <p>Feel free to get in touch with me</p>
+        <div class="social" id="media">
+            <a href="https://www.linkedin.com/in/ponragavan-m-1a2b31276/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B%2FNsXAaLHShGDYY14M6j3wQ%3D%3D" target="_blank"><i class='bx bxl-linkedin' ></i></i></a>
+            <a href="https://www.instagram.com/web_wizard_dev/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/Ponragavan" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="https://wa.me/+919787551260" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+    <footer><p>&#169; Ponragavan</p></footer>
+</body>
+</html>
